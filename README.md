@@ -1,10 +1,9 @@
 # Usage
-- 
+
+- use `just build` to fetch the header only.
 - Manually
 ```powershell
-
 ./make_single_header.py ./include/mdspan/mdspan.hpp > ./mdspan.hpp
-
 ```
 - Or just `wget https://raw.githubusercontent.com/kokkos/mdspan/refs/heads/single-header/mdspan.hpp`
 Caveats
